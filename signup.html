@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up / Sign In - Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="add-book.html">Add Your Book</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <a href="signup.html" class="active">Sign Up / Login</a>
+            <a href="#" class="cart-btn">Cart</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="auth-wrapper">
+            
+            <!-- Sign Up Section -->
+            <div class="form-container">
+                <h2 class="form-title">SIGN UP</h2>
+                <form action="#" method="POST">
+                    
+                    <div class="form-group">
+                        <label for="signup-name">Name</label>
+                        <input type="text" id="signup-name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signup-email">Email ID</label>
+                        <input type="email" id="signup-email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signup-phone">Phone</label>
+                        <input type="tel" id="signup-phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signup-username">Username</label>
+                        <input type="text" id="signup-username" name="username" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signup-password">Password</label>
+                        <input type="password" id="signup-password" name="password" required>
+                    </div>
+
+                    <button type="submit" class="submit-btn">SIGN UP</button>
+                </form>
+            </div>
+
+            <!-- Login Section -->
+            <div class="form-container">
+                <h2 class="form-title">SIGN IN</h2>
+                <form action="#" method="POST">
+                    
+                    <div class="form-group">
+                        <label for="login-identity">Username or Email</label>
+                        <input type="text" id="login-identity" name="identity" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" name="password" required>
+                    </div>
+
+                    <button type="submit" class="submit-btn">SIGN IN</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="logo">Footer Logo</div>
+        <ul class="footer-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
