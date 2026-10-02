@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Catalog - Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html" class="active">Books</a></li>
+                <li><a href="add-book.html">Add Your Book</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <a href="signup.html">Sign Up / Login</a>
+            <a href="#" class="cart-btn">Cart</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Search Bar -->
+        <section class="search-container">
+            <form class="search-box" id="search-form">
+                <input type="text" id="search-input" placeholder="Search for a Book">
+                <button id="search-btn" type="submit">Search</button>
+            </form>
+        </section>
+
+        <!-- Catalog Layout with Sidebar Filter -->
+        <div class="catalog-layout">
+            <aside class="filter-sidebar">
+                <h3>Filter</h3>
+                <div class="filter-group">
+                    <p><strong>Categories</strong></p>
+                    <label><input class="category-filter" value="fiction" type="checkbox"> Fiction</label><br>
+                    <label><input class="category-filter" value="checkbox" type="checkbox"> Non-Fiction</label><br>
+                    <label><input class="category-filter" value="sci-fi" type="checkbox"> Sci-Fi</label><br>
+                    <label><input class="category-filter" value="history" type="checkbox"> History</label>
+                </div>
+            </aside>
+            <!--All Books-->
+            <section class="books-section">
+                <h2>All Books</h2>
+                <div id="books-container" class="books-grid">
+
+                </div>
+            </section>
+            </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="logo">Footer Logo</div>
+        <ul class="footer-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </footer>
+<script src="book.js"></script>
+</body>
+</html>

@@ -27,7 +27,7 @@
     <main>
         <div class="form-container">
             <h2 class="form-title">ADD A BOOK</h2>
-            <form action="#" method="POST">
+            <form id="add-book-form" method="POST">
                 
                 <div class="form-group">
                     <label for="title">Book Title <span class="required">*</span></label>
@@ -78,7 +78,9 @@
                     </select>
                 </div>
 
-                <button type="submit" class="submit-btn">ADD A BOOK</button>
+                <button type="submit" id="submit-btn" class="submit-btn">ADD A BOOK</button>
+                <br>
+                <p id="form-message"></p>
             </form>
         </div>
     </main>
@@ -92,6 +94,6 @@
             <li><a href="#">Privacy Policy</a></li>
         </ul>
     </footer>
-
+<script src="add-book.js"></script>
 </body>
 </html>
